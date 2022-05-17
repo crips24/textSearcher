@@ -2,8 +2,6 @@ f = open(input("entrez le chemin du ficher texte a analyser: "),'r')
 w = open('reslutat.txt','w')
 elementCherche=input("que chercher dans le texte ? : ")
 
-ligne=0
-trouve=0
 
 for line in f :
     index=+1
